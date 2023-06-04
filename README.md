@@ -7,4 +7,3 @@ I created this Survey with using Form Element
 ## Overview
 
 ![Overview](image.png)
-![Overview](image.png)
