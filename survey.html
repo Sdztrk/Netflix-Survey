@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Survey</title>
+    <link rel="stylesheet" href="survey.css" />
+  </head>
+  <body>
+    <div class="container">
+        <div class="netflix"> 
+            <h1>NET</h1>
+            <h1 class="flix" >FLIX</h1>
+        </div>
+      <p  class="divmargin">Thank you for singing up at Netflix.Tell us more about yourself.</p>
+      <form action="x.py">
+        <div class="divmargin">
+          <label for="name">Name</label> <br /> 
+          <input type="text" name="name" id="name" placeholder="Enter Your Name" />
+        </div>
+        <div class="divmargin">
+          <label for="age">Age</label> <br />
+          <input type="age" name="age" id="age" placeholder="Enter Your Age" />
+        </div> 
+        <div class="divmargin">
+          <label for="email">E-Mail</label> <br />
+          <input type="email" name="email" id="email" placeholder="Enter Your E-Mail" />
+        </div>
+        <div class="divmargin">
+            <label for="series">Content Type </label> <br>
+          <select name="series" id="series">
+            <option value="series">Series</option>
+            <option value="films">Films</option>
+            <option value="documentry">Documentory</option>
+          </select>
+        </div>
+        <div class="divmargin">
+          <label for="movietype">Movie Type</label>
+          <br />
+          <input type="checkbox" name="movietype" id="movietype" />Comedy
+          <br />
+          <input type="checkbox" name="movietype" id="movietype" />Action
+          <br />
+          <input type="checkbox" name="movietype" id="movietype" />Romantic
+        </div>
+        <div class="divmargin">
+          <label for="Gender">Gender</label> <br />
+          <input type="radio" name="gender" id="Gender" />Male <br />
+          <input type="radio" name="gender" id="Gender" />Female <br />
+          <input type="radio" name="gender" id="Gender" />Other
+        </div>
+        <div class="divmargin">
+          <label for="comment">Feed Back</label> <br />
+          <textarea
+            name="comment"
+            id="comment"
+            cols="25"
+            rows="6"
+            placeholder="Write any comment..."
+          ></textarea>
+        </div>
+        <div  class="divmargin" >
+          <button type="submit" id="submit" name="submit">Submit</button>
+          <button type="reset" id="reset" name="reset">Reset</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
